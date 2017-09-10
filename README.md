@@ -1,2 +1,5 @@
 # Human-Activity-Recognition-using-ML
 Human Activity Recognition using ML
+
+
+In this dataset we have 5 classes (sitting-down, standing-up, standing, walking, and sitting) collected on 8 hours of activities of 4 healthy subjects. They were asked to perform barbell lifts correctly and incorrectly in 5 different ways. And the type of devices that are used are part of the quantified self movement or to find patterns in their behaviour. Using devices such as Jawbone Up , Nike FuelBand, and Fitbit are now possible to collect a large amount of data about personal activity relatively inexpensively. The goal of this project is to predict the manner in which they did the exercise. This is the "classe" variable in the training set. This project is part of Human Activity Recognition which has emerged as a key research area in the last decade and now is gaining increasing attention by the pervasive computing research community. In the next section I will Build a pattern recognition model for detecting the type classes which is the target variable that we want to predict by applying different algorithm.
