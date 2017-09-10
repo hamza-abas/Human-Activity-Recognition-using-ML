@@ -1,4 +1,4 @@
-
+# Human Activity Recognition using Machine Learning Algorithm
 
    
    
