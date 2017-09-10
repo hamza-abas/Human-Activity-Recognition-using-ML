@@ -351,7 +351,7 @@ round(eos, digits = 3)
 ## [1] 0.003
 ```
 
-We have got **99.8%** of accuarcy, only 0.02 percent were incorrectly classified by the algorithm. this is huge improvement over **K-NN**. and The expected out-of-sample error is 0.002.
+We have got **99.7%** of accuarcy, only 0.003 percent were incorrectly classified by the algorithm. this is huge improvement over **K-NN**. and The expected out-of-sample error is 0.003.
 
 As we know decision tree selects the most homogeneous variables by using metrics such as **information gain**, **Gini ratio** or **Gini index**. Let's take an example and see which variables the tree model selected.
 
@@ -428,7 +428,7 @@ print(rfpredvali)
 
 # Conclusion
 
-In this project I applied **k-NN** algorithm and **RandomForest**. Both are non-parametric classification algorithms that make predictions using the training dataset. That said, **RandomForest** remains robust algorithm and outperforms than **K-NN**.  We've got 99.8% of accuracy and that tells the robustness of random forest amongst other methods . This non parametric approach is widely used when the decision boundary is not highly linear and performs far better than other methods. In this case  the **expected out-of-sample error is 0.002.** meaning that we can choose this model as our final approach.  The dataset had 5 classes (sitting-down, standing-up, standing, walking, and sitting) collected on 8 hours of activities of 4 healthy subjects. The goal was to predict the manner in which they did the exercise. It turns out that our model did very good job correctly predicting almost all cases with less error rate , this suggest that automated machine learning model can be used to answer problems that are based on  Human Activity Recognition. There are many potential applications for HAR, like: elderly monitoring, life log systems for monitoring energy expenditure and for supporting weight-loss programs. I hope that this article covers the practical approach of predicting of Human Activity
+In this project I applied **k-NN** algorithm and **RandomForest**. Both are non-parametric classification algorithms that make predictions using the training dataset. That said, **RandomForest** remains robust algorithm and outperforms than **K-NN**.  We've got 99.7% of accuracy and that tells the robustness of random forest amongst other methods . This non parametric approach is widely used when the decision boundary is not highly linear and performs far better than other methods. In this case  the **expected out-of-sample error is 0.003.** meaning that we can choose this model as our final approach.  The dataset had 5 classes (sitting-down, standing-up, standing, walking, and sitting) collected on 8 hours of activities of 4 healthy subjects. The goal was to predict the manner in which they did the exercise. It turns out that our model did very good job correctly predicting almost all cases with less error rate , this suggest that automated machine learning model can be used to answer problems that are based on  Human Activity Recognition. There are many potential applications for HAR, like: elderly monitoring, life log systems for monitoring energy expenditure and for supporting weight-loss programs. I hope that this article covers the practical approach of predicting Human Activity
 
 
 
